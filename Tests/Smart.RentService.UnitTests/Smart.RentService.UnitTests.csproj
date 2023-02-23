@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Smart.RentService.Application\Smart.RentService.Application.csproj" />
+    <ProjectReference Include="..\..\Src\Smart.RentService.Application\Smart.RentService.Application.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.WebAPI", "Smart.RentService.WebAPI\Smart.RentService.WebAPI.csproj", "{CF46FBF9-92CC-4F6A-A3E6-EF40055E3F7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.WebAPI", "Src\Smart.RentService.WebAPI\Smart.RentService.WebAPI.csproj", "{CF46FBF9-92CC-4F6A-A3E6-EF40055E3F7F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.Core", "Smart.RentService.Core\Smart.RentService.Core.csproj", "{B4081B09-39BA-4C1D-8C5F-02CEA56CB297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.Core", "Src\Smart.RentService.Core\Smart.RentService.Core.csproj", "{B4081B09-39BA-4C1D-8C5F-02CEA56CB297}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.Infrastructure", "Smart.RentService.Infrastructure\Smart.RentService.Infrastructure.csproj", "{677703ED-E4F6-4B0D-B1BA-695A284D97D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.Infrastructure", "Src\Smart.RentService.Infrastructure\Smart.RentService.Infrastructure.csproj", "{677703ED-E4F6-4B0D-B1BA-695A284D97D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.SharedKernel", "Smart.RenService.SharedKernel\Smart.RentService.SharedKernel.csproj", "{79B61EAA-E83E-4E0C-B376-2301460CA785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.SharedKernel", "Src\Smart.RenService.SharedKernel\Smart.RentService.SharedKernel.csproj", "{79B61EAA-E83E-4E0C-B376-2301460CA785}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.Application", "Smart.RentService.Application\Smart.RentService.Application.csproj", "{30E0EC41-3982-4288-9E40-D53EC852994F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.RentService.Application", "Src\Smart.RentService.Application\Smart.RentService.Application.csproj", "{30E0EC41-3982-4288-9E40-D53EC852994F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2429AEE2-4D08-40ED-9DB5-71DC81D14164}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{0DC6C3F1-56B2-4765-B737-49EBB34CD4D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.RentService.UnitTests", "Smart.RentService.UnitTests\Smart.RentService.UnitTests.csproj", "{ED794B76-2246-4031-8EE7-EEB54C1C0F9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.RentService.UnitTests", "Tests\Smart.RentService.UnitTests\Smart.RentService.UnitTests.csproj", "{ED794B76-2246-4031-8EE7-EEB54C1C0F9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
