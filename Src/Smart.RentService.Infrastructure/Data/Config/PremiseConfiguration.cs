@@ -13,6 +13,9 @@ namespace Smart.RentService.Infrastructure.Data.Config
     {
         public void Configure(EntityTypeBuilder<Premise> builder)
         {
+            builder.HasIndex(p => p.Code)
+                .IsUnique();
+
             builder.Property(p => p.Name)
                 .HasMaxLength(50);
 
