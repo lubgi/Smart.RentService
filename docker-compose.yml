@@ -2,7 +2,7 @@ services:
   rent-api:
       build:
         dockerfile: Smart.RentService.WebAPI/Dockerfile
-        context: .
+        context: Src/
       environment:
         - ASPNETCORE_URLS=http://+:80
         - ASPNETCORE_ENVIRONMENT=Development
@@ -21,9 +21,9 @@ services:
     ports:
       - "1433:1433"
     volumes:
-      - ./sql/data:/var/opt/mssql/data
-      - ./sql/log:/var/opt/mssql/log
-      - ./sql/secrets:/var/opt/mssql/secrets
+      - ../sql/data:/var/opt/mssql/data
+      - ../sql/log:/var/opt/mssql/log
+      - ../sql/secrets:/var/opt/mssql/secrets
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=StrongDatabasePassword123@
