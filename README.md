@@ -13,6 +13,14 @@ docker compose up
 ```
 That's it :) It will locally start your API and MS SQL Server
 
+## Azure
+Link: https://smart-rentservice-webapi.azurewebsites.net/
+
+DB Connection:
+```
+Server=smartbusiness.database.windows.net;Database=Rent;User=serveradmin;Password=StrongDatabasePassword123@;
+```
+
 ## Usage
 
 After successful service startup navigate to local SwaggerUI:
